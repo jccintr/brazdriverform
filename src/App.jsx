@@ -20,7 +20,7 @@ const App = () => {
        
      toast({
        title: 'Atenção !',
-       description: "Por favor, informe o seu nome e o seu telefone por favor.",
+       description: "Por favor, informe o seu nome e o seu telefone.",
        status: 'error',
        duration: 3000,
        isClosable: true,
@@ -87,7 +87,7 @@ const App = () => {
            Atenção !
          </AlertTitle>
           <AlertDescription maxWidth='3xl'>
-          Você deve possuir um veículo e estar devidamente habilitado para dirigir para concorrer a uma vaga de motorista parceiro.
+          Você deve possuir um veículo e estar devidamente habilitado para dirigir para aplicar a uma vaga de motorista parceiro.
           </AlertDescription>
         </Alert>
 
